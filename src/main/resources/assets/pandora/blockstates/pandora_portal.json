@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "pandora:block/pandora_portal_ew"
+    },
+    "axis=x": {
+      "model": "pandora:block/pandora_portal_ns"
+    }
+  }
+}

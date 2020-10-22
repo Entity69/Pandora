@@ -1,0 +1,630 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Navi",
+      "type": "mob",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "navi"
+    },
+    {
+      "name": "Navi2",
+      "type": "mob",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "navi_2"
+    },
+    {
+      "name": "Navispawnegg",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "navispawnegg"
+    },
+    {
+      "name": "NavispawneggRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "navispawnegg_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spear",
+      "type": "gun",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spear"
+    },
+    {
+      "name": "SpearRangedItemUsed",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spear_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpearBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spear_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpearBulletHitsPlayer",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spear_bullet_hits_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NaviEntityIsHurt",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "navi_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Navi2EntityIsHurt",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "navi_2_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pickupproceadure",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pickupproceadure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spearentity",
+      "type": "mob",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spearentity"
+    },
+    {
+      "name": "SpearentityRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spearentity_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlyingIslands",
+      "type": "biome",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flying_islands"
+    },
+    {
+      "name": "Pandora",
+      "type": "dimension",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pandora"
+    },
+    {
+      "name": "HolyForest",
+      "type": "biome",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holy_forest"
+    },
+    {
+      "name": "StonecircleOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stonecircle_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stonecircle",
+      "type": "structure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stonecircle"
+    },
+    {
+      "name": "Stonecircle2OnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stonecircle_2_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stonecircle2",
+      "type": "structure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stonecircle_2"
+    },
+    {
+      "name": "StonecircleAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stonecircle_additional_generation_condition",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stonecircle2AdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stonecircle_2_additional_generation_condition",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stonecircle1",
+      "type": "structure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stonecircle_1"
+    },
+    {
+      "name": "Stonecircle3",
+      "type": "structure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stonecircle_3"
+    },
+    {
+      "name": "Stonecircle4",
+      "type": "structure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stonecircle_4"
+    },
+    {
+      "name": "A1",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_1"
+    },
+    {
+      "name": "HammerHead",
+      "type": "mob",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammer_head"
+    },
+    {
+      "name": "HammerHeadEntityIsHurt",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammer_head_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Root",
+      "type": "structure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "root"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "maletakingdamage_2",
+      "file": "416839__alineaudio__grunt1-death-pain",
+      "category": "master"
+    },
+    {
+      "name": "maletakingdamage_3",
+      "file": "404109__deathscyp__damage-1",
+      "category": "master"
+    },
+    {
+      "name": "death_1",
+      "file": "death_1",
+      "category": "master"
+    },
+    {
+      "name": "death_2",
+      "file": "death_2",
+      "category": "master"
+    },
+    {
+      "name": "hurt_1",
+      "file": "hurt_1",
+      "category": "master"
+    },
+    {
+      "name": "hurt_2",
+      "file": "hurt_2",
+      "category": "master"
+    },
+    {
+      "name": "hurt_3",
+      "file": "hurt_3",
+      "category": "master"
+    },
+    {
+      "name": "hurt_4",
+      "file": "hurt_4",
+      "category": "master"
+    },
+    {
+      "name": "idle_1",
+      "file": "idle_1",
+      "category": "master"
+    },
+    {
+      "name": "maletakingdamage_1",
+      "file": "416838__alineaudio__grunt2-death-pain",
+      "category": "master"
+    },
+    {
+      "name": "idle_2",
+      "file": "idle_3_reverse",
+      "category": "master"
+    },
+    {
+      "name": "hammersounds1",
+      "file": "avatar_2009_hold_your_ground_mp3cut.net",
+      "category": "master"
+    },
+    {
+      "name": "hammersounds2",
+      "file": "avatar_2009_hold_your_ground_mp3cut.net_2",
+      "category": "master"
+    },
+    {
+      "name": "hammersounds3",
+      "file": "avatar_2009_hold_your_ground_mp3cut.net_1",
+      "category": "master"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.pandora.navispawnegg": "Na\u0027vi spawnegg",
+      "item.pandora.spearentity": "Spearentity Spawn Egg",
+      "entity.pandora.spearentity": "Spearentity",
+      "item.pandora.pandora": "Pandora Portal Igniter",
+      "item.pandora.spear": "Spear",
+      "item.pandora.hammer_head": "Hammer Head Spawn Egg",
+      "entity.pandora.hammer_head": "Hammer Head",
+      "entity.pandora.navi_2": "Na\u0027vi",
+      "item.pandora.navi": "Na\u0027vi Spawn Egg",
+      "entity.pandora.navi": "Na\u0027vi",
+      "item.pandora.navi_2": "Na\u0027vi Spawn Egg"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "pandora",
+    "modName": "Pandora",
+    "version": "1.0.0",
+    "author": "Entity",
+    "websiteURL": "https://www.curseforge.com",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": ".",
+    "modElementsPackage": "net.mcreator.pandora",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

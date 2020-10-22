@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="pandora"
+version="1.0.0"
+displayName="Pandora"
+credits="."
+displayURL="https://www.curseforge.com"
+authors="Entity"
+
+[[dependencies.pandora]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

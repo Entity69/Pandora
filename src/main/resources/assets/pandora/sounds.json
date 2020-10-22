@@ -1,0 +1,128 @@
+{
+  "maletakingdamage_2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "pandora:416839__alineaudio__grunt1-death-pain",
+        "stream": false
+      }
+    ]
+  },
+  "maletakingdamage_3": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "pandora:404109__deathscyp__damage-1",
+        "stream": false
+      }
+    ]
+  },
+  "death_1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "pandora:death_1",
+        "stream": false
+      }
+    ]
+  },
+  "death_2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "pandora:death_2",
+        "stream": false
+      }
+    ]
+  },
+  "hurt_1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "pandora:hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "hurt_2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "pandora:hurt_2",
+        "stream": false
+      }
+    ]
+  },
+  "hurt_3": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "pandora:hurt_3",
+        "stream": false
+      }
+    ]
+  },
+  "hurt_4": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "pandora:hurt_4",
+        "stream": false
+      }
+    ]
+  },
+  "idle_1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "pandora:idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "maletakingdamage_1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "pandora:416838__alineaudio__grunt2-death-pain",
+        "stream": false
+      }
+    ]
+  },
+  "idle_2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "pandora:idle_3_reverse",
+        "stream": false
+      }
+    ]
+  },
+  "hammersounds1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "pandora:avatar_2009_hold_your_ground_mp3cut.net",
+        "stream": false
+      }
+    ]
+  },
+  "hammersounds2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "pandora:avatar_2009_hold_your_ground_mp3cut.net_2",
+        "stream": false
+      }
+    ]
+  },
+  "hammersounds3": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "pandora:avatar_2009_hold_your_ground_mp3cut.net_1",
+        "stream": false
+      }
+    ]
+  }
+}

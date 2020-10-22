@@ -1,0 +1,48 @@
+{
+  "_fv": 10,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "spear",
+    "customModelName": "Normal",
+    "name": "Spear",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Spear"
+    },
+    "shootConstantly": false,
+    "usageCount": 1,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 4.0,
+    "onRangedItemUsed": {
+      "name": "SpearRangedItemUsed"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 5.5,
+    "bulletKnockback": 2,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Spear"
+    },
+    "bulletModel": "Modelspear",
+    "customBulletModelTexture": "spear.png",
+    "onBulletHitsBlock": {
+      "name": "SpearBulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "SpearBulletHitsPlayer"
+    },
+    "onBulletHitsEntity": {
+      "name": "SpearBulletHitsPlayer"
+    }
+  }
+}

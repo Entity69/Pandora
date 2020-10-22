@@ -1,0 +1,33 @@
+{
+  "_fv": 10,
+  "_type": "structure",
+  "definition": {
+    "structure": "stonecirclex1",
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 10000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -1,
+    "spawnWorldTypes": [
+      "CUSTOM:Pandora"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:FlyingIslands"
+      },
+      {
+        "value": "CUSTOM:HolyForest"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK",
+    "generateCondition": {
+      "name": "Stonecircle2AdditionalGenerationCondition"
+    },
+    "onStructureGenerated": {
+      "name": "Stonecircle2OnStructureInstanceGenerated"
+    }
+  }
+}
